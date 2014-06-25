@@ -13,5 +13,5 @@ As a user, you will have to hack the script to adjust the inputs (The data files
 linux> ffmpeg -i ngc253_%03d.png -b:v 5000k ngc253.mp4
 ```
 
-![Sample Image](https://github.com/low-sky/yt-alma/blob/master/ngc253co_001.png "Sample Image")
+![Sample Image](./ngc253co_001.png?raw=True)
 
