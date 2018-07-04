@@ -13,6 +13,12 @@ As a user, you will have to hack the script to adjust the inputs (The data files
 linux> ffmpeg -i ngc253_%03d.png -b:v 5000k ngc253.mp4
 ```
 
+To get a mp4 player that works on the mac, you need to pass some extra flags
+
+```
+ffmpeg -i ngc253_%03d.png -b:v 5000k -c:v libx264 -pix_fmt yuv420p ngc253.mp4
+```
+
 Here's a sample frame from the movie:
 
 ![Sample Image](./ngc253co_001.png?raw=True)
